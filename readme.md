@@ -1,5 +1,5 @@
 # **Pasos para crear un repositorio en Git:**  
-  ['Imagen de Git'](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png"Logo de Git")
+  !['Imagen de Git'](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/640px-Git-logo.svg.png "Logo de Git")
 - cd Desktop/ (o ruta a la que quieras ir)
 + *mkdir* Repositorio (crea Repositorio como una carpeta en la ruta que estabas)
 - cd Repositorio/ (nos ubicamos en la ruta del repositorio)
@@ -14,4 +14,4 @@
 + git remote -v (para ver a donde apuntaría el push)
 - git remote add origin... (lo que viene en github al crear un repositorio remoto)
 + git branch -M main (para crear la rama main)
-- *git push* (sube del repo local al remoto)
+- *git push origin * (sube del repo local al remoto)
